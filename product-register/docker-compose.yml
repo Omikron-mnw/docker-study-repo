@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  docker-register:
-    container_name: docker-register
+  product-register:
+    container_name: product-register
     build: .
     ports:
       - 3000:3000
