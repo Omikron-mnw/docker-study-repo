@@ -1,0 +1,16 @@
+product-register/app
+product-register/bin
+product-register/config
+product-register/db
+product-register/lib
+product-register/log
+product-register/public
+product-register/storage
+product-register/test
+product-register/tmp
+product-register/vender
+product-register/.ruby-version
+product-register/config.ru
+product-register/Rakefile
+product-register/README.md
+product-register/.gitattributes
