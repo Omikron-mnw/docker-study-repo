@@ -8,7 +8,7 @@ product-register/public
 product-register/storage
 product-register/test
 product-register/tmp
-product-register/vender
+product-register/vendor
 product-register/.ruby-version
 product-register/config.ru
 product-register/Rakefile
