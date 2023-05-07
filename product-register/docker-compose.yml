@@ -12,6 +12,7 @@ services:
     volumes:
       - .:/product-register
     environment:
+      - POSTGRES_USER=postgres
       - DATABASE_PASSWORD=postgres
     tty: true
     stdin_open: true
@@ -25,3 +26,6 @@ services:
     image: postgres
     volumes:
       - db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
